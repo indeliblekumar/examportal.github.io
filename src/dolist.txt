@@ -1,0 +1,7 @@
+teacher page to allow teaches to create their own user name and password
+
+principal page to dismiss students
+
+buttons on principal attendance to allow excusing students
+
+let the first period of the day become the hr period

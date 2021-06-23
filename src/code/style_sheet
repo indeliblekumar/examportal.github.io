@@ -1,0 +1,190 @@
+DIV.main_menu {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+TABLE.main_menu {
+  width: 100%;
+  background: #008000;
+  border: thin solid black;
+  cell-padding: 0;
+  cell-spacing: 0
+}
+
+TABLE.search {
+  cell-padding: 0;
+  cell-spacing: 0
+}
+
+TABLE.search1 {
+  width: 100%;
+  background: rgb(200,200,200);
+  border: thin solid black;
+  cell-padding: 0;
+  cell-spacing: 0
+}
+
+TABLE.search2 {
+  width: 100%;
+  background: rgb(200,255,200);
+  border: thin solid black;
+  cell-padding: 0;
+  cell-spacing: 0
+}
+
+TR.line {
+  border-bottom: 1px solid #000;
+}
+
+
+TD {
+  vertical-align: top
+}
+
+DIV.page_title {
+  position: absolute;
+  top: 50;
+  left: 10;
+}
+
+DIV.main_table {
+  position: absolute;
+  top: 120;
+  left: 10;
+}
+
+.green_button {
+  border: none;
+  background-color:#008000;
+  color: #FFFF00;
+  font-size: 12;
+  font-weight: bold;
+  font-family: Arial, sans-serif
+}
+
+.green2_button {
+  background-color:#008000;
+  color: #FFFF00;
+  font-size: 12;
+  font-weight: bold;
+  font-family: Arial, sans-serif
+}
+
+.blue_button {
+  background: blue;
+  color: white;
+  font-size: 12;
+  font-family: Arial, sans-serif
+}
+
+.red_button {
+  background: red;
+  color: white;
+  font-size: 12;
+  font-family: Arial, sans-serif
+}
+
+.gray_button {
+  font-size: 12;
+  font-family: Arial, sans-serif
+}
+
+.info_button {
+  font-size: 18;
+  font-family: Arial, sans-serif
+}
+
+.regular {
+  font-size: 12;
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+  border: none
+}
+
+.label1 {
+  font-size: 12;
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+  border: none;
+  background: rgb(70,120,70)
+}
+
+.main_background {
+  background: rgb(200,200,255)
+}
+
+/*
+a:visited
+{
+  background-color:#008000;
+  color: #FFFF00;
+  font-size: 12;
+  font-weight: bold;
+  font-family: verdana,arial,helvetica,sans-serif;
+  text-decoration: none
+}
+
+a:link
+{
+  background-color:#008000;
+  color: #FFFF00;
+  font-size: 12;
+  font-weight: bold;
+  font-family: verdana,arial,helvetica,sans-serif;
+  text-decoration: none
+}
+*/
+
+.menu
+{
+  font-family: verdana,arial,helvetica,sans-serif;
+  font-size: 90%;
+  font-weight: bold;
+  color: #FFFF00
+}
+
+.smallh2
+{
+  font-family: verdana,arial,helvetica,sans-serif;
+  font-size: 50%;
+  font-weight: bold
+  color: #008000
+}
+
+
+.times1
+{ 
+  font-family: times,serif;
+  font-size: 120%;
+  font-weight: bold;
+  color: #000080
+}
+
+
+.verdana1
+{ font-family: verdana,arial,helvetica,sans-serif;
+  font-size: 90%;
+  color: #000080
+}
+
+.dgreen
+{ color: rgb(0,100,0);
+  font-weight: bold;
+}
+
+.lgreen
+{ background: rgb(200,255,200);
+}
+
+.lgray
+{ background: rgb(200,200,200);
+}
+
+.ltan
+{ background: rgb(200,200,150);
+}
+
+.lpink
+{ background: rgb(250,170,250);
+}

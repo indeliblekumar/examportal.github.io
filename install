@@ -1,0 +1,44 @@
+Installation Instructions
+*************************
+
+Copyright (C) 1994, 1995, 1996, 1999, 2000, 2001, 2002, 2004, 2005,
+2006 Free Software Foundation, Inc.
+
+This file is free documentation; the Free Software Foundation gives
+unlimited permission to copy, distribute and modify it.
+
+Basic Installation
+==================
+
+gnuschool is a website.
+It is a collection of directories and text files that contain PHP code.
+gnuschool requires PHP, MySQL, and a web server in order to work.
+
+This release is named gnuschool-2.2
+It will unpack into a subdirectory named gnuschool-2.2
+
+If you unpack in a path called "/my/full/path/www/"
+after you unpack, the new path becomes "/my/full/path/www/gnuschool-2.2/"
+The new gnuschool-2.2 directory will have the gnuschool files and subdirectories.
+
+You will need to configure your web server.
+If you use Apache, edit 2 lines in the httpd.conf file as follows:
+DocumentRoot "/my/full/path/www/"
+<Directory "/my/full/path/www/">
+
+Like many other websites, this website uses Javascript and cookies.
+
+To complete the setup you need to access your newly installed gnuschool-2.2 website.
+At the main menu, click on "gnuschool Setup", then click on "Setup Steps"
+Some of the steps take a few minutes to complete due to database inserts.
+To keep the script from timing out, edit php.ini as follows:
+max_execution_time = 360
+
+Once the steps are completed you will be done with your gnuschool setup.
+
+Once you have the website up and running, consider improving your website security.
+
+The /gnuschool-2.2/src/up/up.php file contains usernames and passwords.
+
+This file should not be accessable by others.
+

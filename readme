@@ -1,0 +1,53 @@
+Welcome to gnuschool.
+
+gnuschool is a web application for educators, students, and school
+administrators.  The main directories under src/code/, are db_admin,
+teachers, students, and principals.  A summary of what can be done in
+each directory follows.
+ 
+----------------------
+db_admin
+----------------------
+setup gnuschool through a web interface
+other administrative tasks
+
+----------------------
+teachers
+----------------------
+create tests
+edit tests
+search for tests
+give tests
+monitor tests
+view tests
+give makeups
+search grades
+view grades
+take attendance
+search attendance
+arrange seating
+edit the way student information is displayed
+
+
+----------------------
+students
+----------------------
+take tests
+get instant test feedback
+
+
+----------------------
+principals
+----------------------
+take attendance
+search for absent students
+search for class cuts
+edit student information
+
+The program as been tested a great deal and seems reliable.  As is often
+the case with software, bugs probably remain.  Please report bugs or
+suggestions to "prios978 en yahoo punto com"
+
+gnuschool is free software. Please see the file COPYING for details.
+For basic installation instructions please see the INSTALL
+file.
